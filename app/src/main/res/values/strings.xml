@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Task Management</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_note">Add Note.</string>
+    <string name="enter_the_title">Enter the title</string>
+    <string name="enter_the_description">Enter the description</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="enter_the_task_titile">enter the task titile</string>
+    <string name="enter_the_task_description">enter the task description</string>
+    <string name="edit_task_details">Edit Task Details..</string>
+    <string name="description">Description</string>
+    <string name="task_title">Task Title</string>
+    <string name="welcome_task_minder">Welcome Task Minder</string>
+    <string name="introducing_task_minder_the_ultimate_task_management_app_designed_to_streamline_your_productivity_with_intuitive_task_creation_and_customizable_reminders_staying_organized_has_never_been_easier_collaborate_seamlessly_with_others_track_your_progress_effortlessly_and_personalize_your_experience_to_suit_your_preferences_task_minder_ensures_you_never_miss_a_deadline_and_helps_you_achieve_your_goals_efficiently_download_task_minder_now_and_take_control_of_your_tasks_with_confidence">Introducing Task Minder, the ultimate task management app designed to streamline your productivity. With intuitive task creation and customizable reminders, staying organized has never been easier. Collaborate seamlessly with others, track your progress effortlessly, and personalize your experience to suit your preferences. Task Minder ensures you never miss a deadline and helps you achieve your goals efficiently. Download Task Minder now and take control of your tasks with confidence.</string>
+    <string name="get_start">Get Start</string>
+    <string name="enter_your_task_name">Enter Your Task Name</string>
+</resources>

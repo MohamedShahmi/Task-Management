@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScreenTwo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/welcome_task_minder"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:textSize="35sp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/img1" />
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/introducing_task_minder_the_ultimate_task_management_app_designed_to_streamline_your_productivity_with_intuitive_task_creation_and_customizable_reminders_staying_organized_has_never_been_easier_collaborate_seamlessly_with_others_track_your_progress_effortlessly_and_personalize_your_experience_to_suit_your_preferences_task_minder_ensures_you_never_miss_a_deadline_and_helps_you_achieve_your_goals_efficiently_download_task_minder_now_and_take_control_of_your_tasks_with_confidence"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:textSize="20sp" />
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:text="Next"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/one_next"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/secondary"
+        android:layout_height="match_parent"/>
+    </LinearLayout>
+</ScrollView>

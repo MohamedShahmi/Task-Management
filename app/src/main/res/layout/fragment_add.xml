@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".NewNoteFragment"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/addNoteHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="22dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/add_new_task"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="35sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="82dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/enter_your_task_name"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="23sp" />
+        <EditText
+            android:id="@+id/addNoteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/addNoteHeading"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/border"
+            android:fontFamily="sans-serif"
+            android:hint="@string/enter_the_task_titile"
+            android:maxLines="1"
+            android:padding="12dp"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="200dp"
+            android:fontFamily="sans-serif"
+            android:text="Enter Your Task Description"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="23sp" />
+        <EditText
+            android:id="@+id/addNoteDesc"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_below="@id/addNoteTitle"
+            android:layout_marginTop="62dp"
+            android:background="@drawable/border"
+            android:fontFamily="sans-serif"
+            android:gravity="top"
+            android:hint="@string/enter_the_task_description"
+            android:padding="12dp"
+            android:textSize="18sp" />
+
+
+
+    </RelativeLayout>
+</layout>
